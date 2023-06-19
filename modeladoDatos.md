@@ -1,5 +1,7 @@
 # Modelado de Datos
 
+## Pasos a seguir
+
 1. Identificar las entidades del sistema
 1. Identificar los atributos de las entidades
 1. Identificar las llaves primarias y foraneas
@@ -12,3 +14,11 @@
 1. Identificar los tipos de datos de los atributos de las entidades del sistema
 1. Identificar los atributos que puedan se unicos del sistema
 1. Identificar las reglas del negocio (Operaciones CRUD) del sistema
+
+## Glosario
+
+- PK: _Primary Key_
+- FK: _Foreing Key_
+- ED: Entidad de Datos
+- EP: Entidad Pivote
+- EC: Entidad Catalogo

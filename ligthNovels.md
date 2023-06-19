@@ -2,7 +2,7 @@
 
 ## Listado de Entidades
 
-### novelas_ligeras
+### novelas_ligeras **(ED)**
 
 - novela_id: Id Novela Ligera **(PK)**
 - nombre: Nombre
@@ -12,17 +12,22 @@
 - volumenes_publicados: Volumenes Publicados
 - idioma: Lenguaje **(FK)**
 
-### tipo_genero
+### tipo_genero **(EC)**
 
 - genero_id: Id Genero **(PK)**
 - tipo_genero: Clase de Genero
 
-### estado
+### estado **(EC)**
 
 - estado_id: Id Estado **(PK)**
 - estado: Estado
 
-### idioma
+### idioma **(EC)**
 
 - idioma_id: Id Lenguaje **(PK)**
 - idioma: Lenguaje
+
+## Relaciones
+
+1. Una **novela ligera** _pertenece_ a un **tipo de genero**
+2. Una **novela ligera** _se encuentra_ en un **estado de publicacion**
