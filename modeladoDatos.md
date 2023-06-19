@@ -19,6 +19,7 @@
 
 - PK: _Primary Key_
 - FK: _Foreing Key_
+- UK: _Unique Attribute_
 - ED: Entidad de Datos
 - EP: Entidad Pivote
 - EC: Entidad Catalogo
