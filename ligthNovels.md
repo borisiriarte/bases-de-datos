@@ -29,5 +29,6 @@
 
 ## Relaciones
 
-1. Una **novela ligera** _pertenece_ a un **tipo de genero**
-2. Una **novela ligera** _se encuentra_ en un **estado de publicacion**
+1. Una **novela ligera** _pertenece_ a un **tipo de genero** (_1 a M_)
+2. Una **novela ligera** _se encuentra_ en un **estado de publicacion** (_1 a 1_)
+3. Una **novela ligera** _es escrita_ en un **idioma** (_1 a 1_)
