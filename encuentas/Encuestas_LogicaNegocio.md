@@ -45,4 +45,49 @@
 1. Una **encuesta** tiene **preguntas** (_1 a M_).
 1. Una **pregunta** tiene **respuestas** (_1 a M_).
 1. Una **encuesta** tiene **resultados** (_1 a M_).
-1. Una **encuestado** tiene **preguntas** (_1 a M_).
+1. Una **encuestado** tiene **resultados** (_1 a M_).
+
+## Logica de negocio
+
+### encuestas
+
+1. Crear una encuesta
+1. Leer una encuesta
+1. Leer todas las encuestas
+1. Actualizar una encuesta
+1. Eliminar una encusta
+1. Aumentas en 1 el valor del atributo encuestado cada que un encuestado complete una encuesta
+
+### preguntas
+
+1. Crear una pregunta
+1. Leer una pregunta
+1. Leer todas las preguntas
+1. Actualizar una pregunta
+1. Eliminar una pregunta
+
+### respuestas
+
+1. Crear una respuesta
+1. Leer una respuesta`
+1. Leer todas las respuestas
+1. Actualizar una respuesta
+1. Eliminar una respuesta
+
+### encuestados
+
+1. Crear un encuestado
+1. Leer un encuestado
+1. Leer todos los encuestados
+1. Actualizar un encuestado
+1. Eliminar un encuestado
+1. Antes de crear un encuestado en la entidad, verificar mediante su email que no exista
+
+### resultados
+
+1. Crear un resultado
+1. Leer un resultado
+1. Leer todos los resultados
+1. Actualizar un resultado
+1. Eliminar un resultado
+1. Sacar el porcentaje de asertividad que tuvo el encuestado al contestar una respuesta
